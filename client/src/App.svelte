@@ -1,5 +1,8 @@
-<script></script>
+<script>
+  import ThresholdSlider from "./lib/ThresholdSlider.svelte";
+</script>
 
-<main class="flex flex-col items-center justify-center min-h-screen">
-  <h1 class="text-3xl font-bold underline">Jillustrate!</h1>
+<main class="flex flex-col items-center justify-evenly min-h-screen">
+  <h1 class="text-3xl">jillustrate</h1>
+  <ThresholdSlider />
 </main>
